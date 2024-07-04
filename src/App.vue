@@ -1,9 +1,14 @@
 <script>
 import AppTitle from './components/AppTitle.vue'
+
+import JumboTron from './components/JumboTron.vue'
+
+
 export default {
 
   components: {
-    AppTitle
+    AppTitle,
+    JumboTron
   }
 
 }
@@ -13,6 +18,8 @@ export default {
 <template>
   
   <AppTitle />
+
+  <JumboTron />
 
 </template>
 
